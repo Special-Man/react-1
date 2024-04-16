@@ -9,13 +9,15 @@ body{
    
 }
 .header1{
-    display:flex; 
-    width: 100%;
+    display:flex;
+    justify-content: space-between; 
+    width: 96%;
     height: 50px;
     padding: 30px;
     color: #ffffff;
     background-color:#7d4334;
     margin:auto; 
+
     
 
 }
@@ -68,3 +70,177 @@ a{
 a:hover{
 color: grey;
 }
+
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color:  #ffe4a3 ;
+}
+th{
+  background-color: #ddbf86;
+}
+
+  td,th{
+    border:1px solid black;
+    
+    text-align: left;
+    padding: 5px;
+  }
+  tr:nth-child(odd){
+    background-color: #fff2cf;
+  
+}
+/* THis is of "Table" of User Massnagement page CSS*/
+.blue{
+  color: blue;
+  margin: 5px;
+}
+
+.blue:hover{
+  color: white;
+}
+
+.red{
+  color: red;
+  
+}
+
+.red:hover{
+color: white;
+}
+
+.adser{
+  color: black;
+}
+
+.adser:hover{
+color: white;
+}
+
+.detailyo {
+  color: black;
+}
+.detailyo:hover{
+color: white;
+}
+
+.label-danger{
+  color: red;
+}
+
+/* form css starts */
+/* input[type=text], select { */
+  input[type=text], input[type=password], select {
+    width: 50%;
+    padding: 5px ;
+    margin: 5px 0;
+  }
+
+  /* css of login ye */
+  p{
+    font-size:12px;
+    text-decoration: none;
+    
+  }
+  
+  h1{
+    font-size:1.5em;
+    color:#525252;
+  }
+  
+  .box{
+    background:white;
+    width:300px;
+    border-radius:6px;
+    margin: 10% 35%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right:3%;
+  
+  
+  
+    border: 1px solid black;
+  }
+  
+  .email{
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 2px solid;
+    padding: 8px;
+    width:250px;
+    color:#AAAAAA;
+    margin-top:10px;
+    font-size:1em;
+    border-radius:4px;
+  }
+  
+  .password{
+    border-radius:4px;
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    padding: 8px;
+    width:250px;
+    font-size:1em;
+  }
+  
+  .btn-l{
+    background:#2ecc71;
+    width:125px;
+    padding-left: 25%;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: #27ae60 1px solid;
+    margin-top:20px;
+    margin-bottom:20px;
+    float:left;
+    margin-left:26px;
+    font-weight:800;
+    font-size:0.8em;
+  }
+  
+  
+  
+  #btn2{
+    float:right;
+    background:#3498db;
+    width:125px;  padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: #2980b9 1px solid;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:10px;
+    font-weight:800;
+    font-size:0.8em;
+  }
+  
+  #btn2:hover{ 
+  background:#3594D2; 
+  }
+  /* logout */
+  .logout{
+    color: black;
+
+  }
+/* message box */
+  .message{
+    color: red;
+  }
+
+  .Logo{
+    width: 10%;
+    filter: brightness(0) invert(1);
+  }
+
+  .btnyes{
+    color: green;
+  }
+
+  .btnno{
+    color: red;
+  }
